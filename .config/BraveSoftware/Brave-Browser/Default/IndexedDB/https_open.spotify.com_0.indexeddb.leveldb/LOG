@@ -1,0 +1,7 @@
+2025/05/11-09:49:32.398 5c9 Reusing MANIFEST /home/zah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/11-09:49:32.399 5c9 Recovering log #14
+2025/05/11-09:49:32.400 5c9 Reusing old log /home/zah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000014.log 
+2025/05/11-09:49:32.406 5ca Compacting 1@1 + 1@2 files
+2025/05/11-09:49:32.409 5ca Generated table #17@1: 971 keys, 119486 bytes
+2025/05/11-09:49:32.409 5ca Compacted 1@1 + 1@2 files => 119486 bytes
+2025/05/11-09:49:32.409 5ca compacted to: files[ 0 0 1 0 0 0 0 ]

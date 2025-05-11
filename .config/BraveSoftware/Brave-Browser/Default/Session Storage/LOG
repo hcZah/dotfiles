@@ -1,0 +1,17 @@
+2025/05/11-16:13:57.509 5 Reusing MANIFEST /home/zah/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2025/05/11-16:13:57.510 5 Recovering log #12
+2025/05/11-16:13:57.511 5 Level-0 table #15: started
+2025/05/11-16:13:57.513 5 Level-0 table #15: 30874 bytes OK
+2025/05/11-16:13:57.515 5 Delete type=0 #12
+2025/05/11-16:37:38.124 4 Level-0 table #18: started
+2025/05/11-16:37:38.128 4 Level-0 table #18: 29707 bytes OK
+2025/05/11-16:37:38.131 4 Delete type=0 #16
+2025/05/11-16:37:38.132 4 Compacting 4@0 + 1@1 files
+2025/05/11-16:37:38.139 4 Generated table #19@0: 921 keys, 35376 bytes
+2025/05/11-16:37:38.139 4 Compacted 4@0 + 1@1 files => 35376 bytes
+2025/05/11-16:37:38.141 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/11-16:37:38.143 4 Delete type=2 #8
+2025/05/11-16:37:38.143 4 Delete type=2 #15
+2025/05/11-16:37:38.143 4 Delete type=2 #13
+2025/05/11-16:37:38.143 4 Delete type=2 #10
+2025/05/11-16:37:38.144 4 Delete type=2 #18

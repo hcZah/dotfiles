@@ -1,0 +1,12 @@
+2025/05/11-09:42:13.048 33e Reusing MANIFEST /home/zah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/11-09:42:13.048 33e Recovering log #10
+2025/05/11-09:42:13.051 33e Reusing old log /home/zah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000010.log 
+2025/05/11-09:42:13.061 340 Compacting 1@1 + 1@2 files
+2025/05/11-09:42:13.065 340 Generated table #13@1: 966 keys, 119262 bytes
+2025/05/11-09:42:13.065 340 Compacted 1@1 + 1@2 files => 119262 bytes
+2025/05/11-09:42:13.066 340 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/11-09:42:13.683 33e Level-0 table #15: started
+2025/05/11-09:42:13.689 33e Level-0 table #15: 1010663 bytes OK
+2025/05/11-09:42:13.690 33e Delete type=2 #11
+2025/05/11-09:42:13.690 33e Delete type=2 #8
+2025/05/11-09:42:13.690 33e Delete type=0 #10
