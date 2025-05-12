@@ -116,3 +116,4 @@ source $ZSH/oh-my-zsh.sh
 alias pentablet=/usr/lib/pentablet/PenTablet.sh
 alias nv=nvim
 alias nvim.=nvim .
+alias godot=$HOME/.local/bin/Godot_v4.4.1-stable_linux.x86_64
