@@ -117,3 +117,9 @@ alias pentablet=/usr/lib/pentablet/PenTablet.sh
 alias nv=nvim
 alias nvim.=nvim .
 alias godot=$HOME/.local/bin/Godot_v4.4.1-stable_linux.x86_64
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH=$PATH:/home/zah/.spicetify
