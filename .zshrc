@@ -88,11 +88,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='nvim'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='nvim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -115,11 +115,11 @@ source $ZSH/oh-my-zsh.sh
 # My aliases
 alias pentablet=/usr/lib/pentablet/PenTablet.sh
 alias nv=nvim
+alias nv.=nvim .
 alias nvim.=nvim .
 alias godot=$HOME/.local/bin/Godot_v4.4.1-stable_linux.x86_64
+alias config="cd ~/dotfiles/.config/"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export PATH=$PATH:/home/zah/.spicetify

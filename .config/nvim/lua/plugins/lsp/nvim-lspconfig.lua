@@ -215,6 +215,7 @@ return {
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
 		require("mason-lspconfig").setup({
+			automatic_enable = true,
 			ensure_installed = {}, -- explicitly set to an empty table (Kickstart populates installs via mason-tool-installer)
 			automatic_installation = false,
 			handlers = {
@@ -228,5 +229,7 @@ return {
 				end,
 			},
 		})
+
+		require("lspconfig").gdscript.setup(capabilities)
 	end,
 }

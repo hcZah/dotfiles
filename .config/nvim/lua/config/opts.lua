@@ -6,7 +6,8 @@ vim.g.have_nerd_font = true
 vim.o.number = true
 vim.o.relativenumber = true
 
-vim.o.showmode = true
+-- The mode is already on the bar
+vim.o.showmode = false
 
 -- Enable break indent
 vim.o.breakindent = true
@@ -50,3 +51,17 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 vim.opt.colorcolumn = "80"
+
+-- Checks for existing godot project
+local gdproject = io.open(vim.fn.getcwd() .. "/project.godot", "r")
+if gdproject then
+	io.close(gdproject)
+	vim.fn.serverstart("./godothost")
+end
+
+-- Auto-update Lazy
+vim.api.nvim_create_autocmd("VimEnter", {
+	callback = function()
+		require("lazy").update({ show = false })
+	end,
+})
